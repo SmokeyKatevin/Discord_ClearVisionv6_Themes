@@ -1,5 +1,5 @@
 /**
- * @name ClearViewTest
+ * @name 1
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -9,7 +9,6 @@
  * @BDEditor Clear Vision
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
@@ -22,7 +21,7 @@
   --background-image: transparent;
   --background-shading: 100%;
   --background-position: center;
-  --background-size: contain;
+  --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
   --background-brightness: 100%;
@@ -43,7 +42,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: transparent;
+  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -60,14 +59,14 @@
   --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
-  --online-color: #43b581;
+  --online-color: #673AB7;
   --idle-color: #faa61a;
   --dnd-color: #982929;
-  --streaming-color: #593695;
+  --streaming-color: #4CAF50;
   --offline-color: #808080;
   --main-font: gg sans;
-  --code-font: Montserrat;
-  --channels-width: 280px;
+  --code-font: Consolas;
+  --channels-width: 260px;
   --members-width: 220px;
   --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
